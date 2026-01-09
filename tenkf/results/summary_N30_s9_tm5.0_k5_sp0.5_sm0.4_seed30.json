@@ -1,0 +1,26 @@
+{
+  "params": {
+    "N": 30,
+    "s": 9,
+    "tm": 5.0,
+    "k": 5,
+    "sig_p": 0.5,
+    "sig_m": 0.4,
+    "seed": 30,
+    "inflation_factor": 1.0
+  },
+  "metrics": {
+    "rmse_enkf": 3.3462829667317986,
+    "rmse_eakf": 3.0352427824362214,
+    "rmse_enkf_tr": 2.029675952864166,
+    "rmse_eakf_tr": 1.7526611912427625,
+    "improve_enkf_tr_%": 39.34535802731346,
+    "eakf_vs_enkf_%": 9.295095106656795,
+    "eakf_tr_vs_enkf_%": 47.62364065838319
+  },
+  "files": {
+    "npz": "results/four_methods_N30_s9_tm5.0_k5_sp0.5_sm0.4_seed30.npz",
+    "csv": "results/four_methods_N30_s9_tm5.0_k5_sp0.5_sm0.4_seed30.csv",
+    "summary_csv": "results/summary_N30_s9_tm5.0_k5_sp0.5_sm0.4_seed30.csv"
+  }
+}
